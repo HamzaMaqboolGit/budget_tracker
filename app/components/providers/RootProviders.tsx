@@ -7,7 +7,9 @@ function RootProviders({ children }: { children: ReactNode }) {
     const [queryClient] = React.useState(() => new QueryClient({}))
     return (
 
-        <QueryClientProvider client={queryClient}>
+        <QueryClientProvider client={queryClient}
+
+        >
 
 
             <ThemeProvider
